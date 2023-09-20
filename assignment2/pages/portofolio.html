@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portofolio</title>
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="../assets/css/portofolio-style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <!-- Font Poppins -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Poppins?query=poppins"
+    />
+    <!-- Icon Menu Mobile -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Start Navbar menu -->
+    <div class="topnav" id="myTopnav">
+      <div class="container">
+        <ul>
+          <a href="../index.html">HOME</a>
+          <a href="#product">PRODUCT</a>
+          <a href="#gallery">GALLERY</a>
+          <a href="#blog">BLOG</a>
+          <a href="#myinventory">MY INVENTORY</a>
+        </ul>
+        <a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </div>
+    <!-- End Navbar menu -->
+
+    <!-- Start Content profile -->
+    <div class="container">
+      <section>
+        <div class="content">
+          <div class="img-profile">
+            <img src="../assets/images/foto_gw.jpg" alt="img-profile" />
+          </div>
+          <div class="bagian-1-profile">
+            <h2 id="nama" class="nama-profile">Thorik Agung Prakoso</h2>
+            <p id="role" class="keahlian">Front End Developer</p>
+            <p></p>
+            <button id="editButton" type="button" class="btn-edit">Edit</button>
+            <button type="button" class="btn-resume">Resume</button>
+          </div>
+          <div class="bagian-2-profile">
+            <table style="width: 30%">
+              <tr>
+                <td style="font-weight: bold">Availability</td>
+                <td id="avaibility">Full Time</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Age</td>
+                <td id="age">21</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Location</td>
+                <td id="lokasi">Purwokerto, Indonesia</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Experience</td>
+                <td id="experience">3</td>
+              </tr>
+              <tr>
+                <td style="font-weight: bold">Email</td>
+                <td id="email">thorikap1440@gmail.com</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <!-- End Content Profile -->
+
+        <!-- Start Form Input Data -->
+        <div class="form-data">
+          <form id="form" onsubmit="return TampilkanData();">
+            <label for="inputnama" class="jdl-form">Name</label><br />
+            <input
+              type="text"
+              id="inputnama"
+              name="name"
+              class="some-form"
+            /><br />
+
+            <label for="inputRole" class="jdl-form">Role</label><br />
+            <input
+              type="text"
+              id="inputRole"
+              name="role"
+              class="some-form"
+            /><br />
+
+            <label for="inputAvaibility" class="jdl-form">Avaibility</label
+            ><br />
+            <input
+              type="text"
+              id="inputAvaibility"
+              name="availability"
+              class="some-form"
+            /><br />
+
+            <label for="inputAge" class="jdl-form">Age</label><br />
+            <input
+              type="text"
+              id="inputAge"
+              name="age"
+              class="some-form"
+            /><br />
+            <label for="inputLokasi" class="jdl-form">Location</label><br />
+            <input
+              type="text"
+              id="inputLokasi"
+              name="lokasi"
+              class="some-form"
+            /><br />
+
+            <label for="inputExperience" class="jdl-form"
+              >Years Experience</label
+            ><br />
+            <input
+              type="text"
+              id="inputExperience"
+              name="experience"
+              class="some-form"
+            /><br />
+
+            <label for="inputEmail" class="jdl-form">Email</label><br />
+            <input
+              type="text"
+              id="inputEmail"
+              name="email"
+              class="some-form"
+            /><br /><br />
+
+            <button type="submit" value="Submit" class="btn-form">
+              SUBMIT
+            </button>
+          </form>
+        </div>
+        <!-- End Form Input Data -->
+      </section>
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>

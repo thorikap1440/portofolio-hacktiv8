@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Website Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/bootstrap/dist/css/bootstrap.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.google.com/specimen/Poppins?query=poppins"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary shadow py-3">
+      <div class="container-lg">
+        <a class="navbar-brand fw-semibold" href="#">Hacktiv8</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Profil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/portofolio.html">Portofolio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tutorial
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">HTML</a></li>
+                <li><a class="dropdown-item" href="#">CSS</a></li>
+                <li><a class="dropdown-item" href="#">Javascript</a></li>
+                <li><a class="dropdown-item" href="#">JQuery</a></li>
+                <li><a class="dropdown-item" href="#">Codeigniter</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <button type="button" class="btn btn-outline-dark mx-3 px-4 py-2">
+              Login
+            </button>
+            <button class="btn btn-primary px-4 py-2" type="submit">
+              Daftar
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Jumbotron -->
+    <div class="jumbotron py-5 text-sm-center bg-body-tertiary">
+      <div class="container-lg">
+        <h1 class="display-6 fw-medium pt-5">
+          Selamat Datang di WWW.hacktiv8.com
+        </h1>
+        <p class="lead pb-4">
+          Tutorial Pemrograman Bahasa Indonesia Terlengkap di Muka Bumi.
+        </p>
+        <a class="btn btn-primary btn-lg" href="#" role="button"
+          >Mulai Belajar!</a
+        >
+      </div>
+    </div>
+    <!-- End jumbotron -->
+
+    <!-- section Tutorial -->
+    <div class="py-5">
+      <div class="container-lg">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/html.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">HTML</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores ut delectus eaque, veritatis beatae voluptatibus
+                  tempora sint in obcaecati et!.
+                </p>
+                <a href="#" class="btn btn-primary">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/css1.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">CSS</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores ut delectus eaque, veritatis beatae voluptatibus
+                  tempora sint in obcaecati et!.
+                </p>
+                <a href="#" class="btn btn-primary">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img src="assets/images/js.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Javascript</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores ut delectus eaque, veritatis beatae voluptatibus
+                  tempora sint in obcaecati et!.
+                </p>
+                <a href="#" class="btn btn-primary">Lihat</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow">
+              <img
+                src="assets/images/bootstrap.png"
+                class="card-img-top img-fluid"
+                alt="..."
+              />
+              <div class="card-body">
+                <h5 class="card-title">Bootstrap</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Dolores ut delectus eaque, veritatis beatae voluptatibus
+                  tempora sint in obcaecati et!.
+                </p>
+                <a href="#" class="btn btn-primary">Lihat</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End section Tutorial -->
+
+    <!-- Footer -->
+    <div class="alert bg-body-secondary border-top" role="alert">
+      <div class="container-lg">
+        <p class="d-sm-inline fs-6">
+          Copyright &copy; 2023 Hacktiv8.com | All Right Reserved
+        </p>
+        <p class="d-inline float-sm-end fs-6">Develop by Hacktiv8.com</p>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
+</html>
